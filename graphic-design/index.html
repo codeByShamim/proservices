@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>graphic-design</title>
+     <!--lazy loading img-->
+    <script src="https://unpkg.com/lazysizes@5.2.2/lazysizes.js"></script>
+     <!-- favicon -->
+     <link rel="shortcut icon" href="../css/image/favicon.png" type="image/x-icon">
+        <!-- root main css -->
+        <link rel="stylesheet" href="../css/style.css">
+    <!-- graphic main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+     <!-- nav bar start here -->
+     <div id="nav-bar">
+        <!-- logo-->
+        <div class="logo-wrapper">
+            <div id="logo" class="logo"><a href="https://commencons.com"><img class="lazyload" data-src="../css/image/logo.png" alt=""></a></div>
+            <!-- menu btn -->
+        <div class="menu-btn"><a class="notification-icon" onclick="poppup_open()"><div></div><i class="fa-regular fa-bell"></i></a>
+       <button id="menu-bar" onclick="menu_open()"><i class="fa-solid fa-bars"></i></button>
+       <button id="menu-x" onclick="menu_close()"><i class="fa-solid fa-x"></i></button></div>
+
+    </div>
+        <!-- nav link -->
+        <div class="nav-link" id="nav-link">
+            <ul>
+                <li><a href="https://commencons.com" onclick="menu_link_hide(s)">HOME</a></li>
+                <li><a href="https://commencons.com#service-offer" onclick="menu_link_hide(s)">SERVICE</a></li>
+                <li><a href="https://commencons.com#pricing-section-wrapper" onclick="menu_link_hide(s)">PRICING</a></li>
+                <li  class="project-btn"><a href="#" onclick="dropdowns_open_close()">PROJECT <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="dropdowns" id="dropdowns">
+                    <li><a href="https://commencons.coml#web-design" onclick="menu_link_hide(s)">WEB DESIGN</a></li>
+                    <li><a href="https://commencons.com#graphic-design" onclick="menu_link_hide(s)">GRAPHIC DESIGN</a></li>
+                    <li><a href="https://commencons.com/photo-editing/" onclick="menu_link_hide(s)">PHOTO EDITING</a></li>
+                </ul>
+                </li>
+                <li><a href="https://commencons.com#about-wrapper" onclick="menu_link_hide(s)">ABOUT</a></li>
+                <li><a href="#" id="notification-icon"> <div></div><i class="fa-regular fa-bell" onclick="poppup_open()"></i></a></li>  
+                <li><a href="https://commencons.com#contact-me" class="contact-active" onclick="menu_link_hide(s)">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- gallery -->
+        <!-- protfolio section start here -->
+        <div class="protfolio-section">
+            <!-- gallery-header -->
+          <div id="protfolio-header">
+              <h1>Match Your Exact Design</h1><br>
+              <h3>Type of Design we create For You.
+                Choose your exact design following your specific requirements.</h3>
+          </div>
+          <!-- project navigation -->
+          <div id="project-navigation">
+            <div ><a href="#social-media">Social Media</a></div>
+            <div ><a href="#web-banner">Web Banner</a></div>
+            <div ><a href="#youtube-thumbnail">YT Thumbnail</a></div>
+            <div ><a href="#youtube-banner">YT Banner</a></div>
+            <div ><a href="#business-card">Business Card</a></div>
+            <div ><a href="#facebook-ads">Facebook ads</a></div>
+            <div ><a href="#flyer-design">Flyer Design</a></div>
+
+          </div>
+           <!-- special offer section -->
+    <div class="special-offer-section">
+        <div class="special-offer">
+            <div class="offer">
+                <h1>Special Discount for First Projects!</h1>
+                <p>I will provide you with eye-catching graphic design services using PhotoShop. So you will get great quality services. Client satisfaction is my first priority.</p>
+                <a href="https://tawk.to/commencons.chat">Contact Me <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="offer-img">
+                <img class="lazyload" data-src="./css/image/graphic img.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+          <!-- portfolio start -->
+          <div class="protfolio-title-wrapper anchor" id="social-media">
+              <div class="left-title">
+                  <h3><span>01/</span> Social Media Post</h3>
+                  <p>Do social media better than the rest with custom-designed skins, avatars & more.</p>
+              </div>
+              <div class="right-title">
+                  <div>Facebook</div>
+                  <div>Instagram</div>
+                  <div>Twitter</div>
+                  <div>Linkedin</div>
+              </div>
+          </div>
+          <!-- social media post -->
+          <div class="prtofolio-img-container">
+              <img class="lazyload" data-src="./css/image/social media post/social media post 03.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/social media post/social media post 02.jpeg" alt="" width="100%">
+              <img  class="lazyload"data-src="./css/image/social media post/social media post 05.jpeg" alt="" width="100%">
+              <img  data-src="./css/image/social media post/social media post 14.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 13.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 04.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 06.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 07.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 08.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 09.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 10.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 17.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img  data-src="./css/image/social media post/social media post 12.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img data-src="./css/image/social media post/social media post 01.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img data-src="./css/image/social media post/social media post 15.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img data-src="./css/image/social media post/social media post 16.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+              <img data-src="./css/image/social media post/social media post 11.jpeg" alt="" width="100%" class="img-display-none1 lazyload">
+          </div>
+          <!-- show more btn -->
+        <div class="view-galery-btn" onclick="img_hide_show1()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+  
+          <div class="protfolio-title-wrapper border-top" id="web-banner">
+              <div class="left-title">
+                  <h3><span>02/</span> Web Banner</h3>
+                  <p>Skyrocket growth with banner ads customers can't help but click.</p>
+              </div>
+              <div class="right-title">
+                  <div>Static Banner</div>
+                  <div>Animated Banner</div>
+                  <div>Source File</div>
+                  <div>Other</div>
+              </div>
+          </div>
+          <!-- web banner -->
+          <div class="prtofolio-img-container" >
+              <img class="lazyload" data-src="./css/image/web banner/web banner 01.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/web banner/web banner 02.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/web banner/web banner 03.jpeg" alt="" width="100%">
+              <img data-src="./css/image/web banner/web banner 04.jpeg" alt="" width="100%" class="img-display-none2 lazyload">
+              <img data-src="./css/image/web banner/web banner 05.jpeg" alt="" width="100%" class="img-display-none2 lazyload">
+              <img data-src="./css/image/web banner/web banner 06.jpeg" alt="" width="100%" class="img-display-none2 lazyload">
+              <img data-src="./css/image/web banner/web banner 07.jpeg" alt="" width="100%" class="img-display-none2 lazyload">
+              <img data-src="./css/image/web banner/web banner 08.jpeg" alt="" width="100%" class="img-display-none2 lazyload">
+              <img data-src="./css/image/web banner/web banner 09.jpeg" alt="" width="100%" class="img-display-none2 lazyload">
+              <img data-src="./css/image/web banner/web banner 10.jpeg" alt="" width="100%" class="img-display-none2 lazyload">
+              
+          </div>
+        <div class="view-galery-btn" onclick="img_hide_show2()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+          
+        <div class="protfolio-title-wrapper border-top" id="business-card">
+              <div class="left-title">
+                  <h3><span>03/ </span>Business Card</h3>
+                  <p>Crush the first impression with custom business card design.</p>
+              </div>
+              <div class="right-title">
+                  <div>Files Ready to Print</div>
+                  <div>Source File</div>
+                  <div>Front & Back Design </div>
+                  <div>Other</div>
+              </div>
+          </div>
+          <!-- business card -->
+          <div class="prtofolio-img-container " >
+              <img class="lazyload" data-src="./css/image/business card/business card 04.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/business card/business card 02.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/business card/business card 03.jpeg" alt="" width="100%">
+              <img data-src="./css/image/business card/business card 01.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 05.jpeg" alt="" width="100%" class="img-display-none3 lazyload" >
+              <img data-src="./css/image/business card/business card 06.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 07.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 08.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 09.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 10.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 11.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 12.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 13.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+              <img data-src="./css/image/business card/business card 14.jpeg" alt="" width="100%" class="img-display-none3 lazyload">
+            </div>
+          <!-- view more btn -->
+          <div class="view-galery-btn" onclick="img_hide_show3()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+      
+        <div class="protfolio-title-wrapper border-top" id="youtube-thumbnail">
+              <div class="left-title">
+                  <h3><span>03/ </span>YouTube Thumbnail</h3>
+                  <p>Attract more visitors with eye-catching thumbnail design.</p>
+              </div>
+              <div class="right-title">
+                  <div>YouTube</div>
+                  <div>Tumblr</div>
+                  <div>Reddit</div>
+                  <div>Other</div>
+              </div>
+          </div>
+          <!-- youtube thumbnail -->
+          <div class="prtofolio-img-container">
+              <img class="lazyload" data-src="./css/image/youtube thumbnail/youtube thumbnail 02.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/youtube thumbnail/youtube thumbnail 03.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/youtube thumbnail/youtube thumbnail 05.jpeg" alt="" width="100%">
+              <img data-src="./css/image/youtube thumbnail/youtube thumbnail 10.jpeg" alt="" width="100%" class="img-display-none4 lazyload">
+              <img data-src="./css/image/youtube thumbnail/youtube thumbnail 08.jpeg" alt="" width="100%" class="img-display-none4 lazyload">
+              <img data-src="./css/image/youtube thumbnail/youtube thumbnail 07.jpeg" alt="" width="100%" class="img-display-none4 lazyload">
+              <img data-src="./css/image/youtube thumbnail/youtube thumbnail 06.jpeg" alt="" width="100%" class="img-display-none4 lazyload">
+              <img data-src="./css/image/youtube thumbnail/youtube thumbnail 09.jpeg" alt="" width="100%" class="img-display-none4 lazyload">
+              <img data-src="./css/image/youtube thumbnail/youtube thumbnail 04.jpeg" alt="" width="100%" class="img-display-none4 lazyload">
+              <img data-src="./css/image/youtube thumbnail/youtube thumbnail 01.jpeg" alt="" width="100%" class="img-display-none4 lazyload">
+          </div>
+          <!-- view more btn -->
+          <div class="view-galery-btn" onclick="img_hide_show4()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+      
+        <div class="protfolio-title-wrapper border-top" id="youtube-banner">
+              <div class="left-title">
+                  <h3><span>03/ </span>YouTube Banner</h3>
+                  <p>Level-up your social channels with expertly designed headers and covers.</p>
+              </div>
+              <div class="right-title">
+                  <div>YouTube</div>
+                  <div>Facebook</div>
+                  <div>Twitter</div>
+                  <div>Other</div>
+              </div>
+          </div>
+          <!-- youtube banner channel art -->
+          <div class="prtofolio-img-container" >
+              <img class="lazyload" data-src="./css/image/youtube banner/youtube banner 01.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/youtube banner/youtube banner 02.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/youtube banner/youtube banner 03.jpeg" alt="" width="100%">
+              <img data-src="./css/image/youtube banner/youtube banner 06.jpeg" alt="" width="100%" class="img-display-none5 lazyload">
+              <img data-src="./css/image/youtube banner/youtube banner 05.jpeg" alt="" width="100%" class="img-display-none5 lazyload">
+              <img data-src="./css/image/youtube banner/youtube banner 04.jpeg" alt="" width="100%" class="img-display-none5 lazyload">
+          </div>
+          <!-- view more btn -->
+          <div class="view-galery-btn" onclick="img_hide_show5()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+     
+        <div class="protfolio-title-wrapper border-top" id="facebook-ads">
+              <div class="left-title">
+                  <h3><span>03/ </span>Facebook ads</h3>
+                  <p>Eye-catching and high-converting facebook ads design.</p>
+              </div>
+              <div class="right-title">
+                  <div>Facebook</div>
+                  <div>Google</div>
+                  <div>Instagram</div>
+                  <div>Twitter</div>
+              </div>
+          </div>
+          <!-- facebook ads -->
+          <div class="prtofolio-img-container" >
+              <img class="lazyload" data-src="./css/image/facebook ads/facebook ads 03.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/facebook ads/facebook ads 02.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/facebook ads/facebook ads 05.jpeg" alt="" width="100%">
+              <img data-src="./css/image/facebook ads/facebook ads 04.jpeg" alt="" width="100%" class="img-display-none6 lazyload">
+              <img data-src="./css/image/facebook ads/facebook ads 01.jpeg" alt="" width="100%" class="img-display-none6 lazyload">
+          </div>
+          <!-- view more btn -->
+          <div class="view-galery-btn" onclick="img_hide_show6()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+     
+        <div class="protfolio-title-wrapper border-top" id="flyer-design">
+              <div class="left-title">
+                  <h3><span>03/ </span>Flyer Design</h3>
+                  <p>Promote your business with printed marketing materials you can post anywhere and everywhere.</p>
+              </div>
+              <div class="right-title">
+                  <div>Flyers</div>
+                  <div>Door hangers</div>
+                  <div>Front & Back Design</div>
+                  <div>Other</div>
+              </div>
+          </div>
+          <!-- flyer design -->
+          <div class="prtofolio-img-container" >
+              <img class="lazyload" data-src="./css/image/flyer design/flyer design 01.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/flyer design/flyer design 03.jpeg" alt="" width="100%">
+              <img class="lazyload" data-src="./css/image/flyer design/flyer design 05.jpeg" alt="" width="100%">
+              <img data-src="./css/image/flyer design/flyer design 06.jpeg" alt="" width="100%" class="img-display-none7 lazyload">
+              <img data-src="./css/image/flyer design/flyer design 02.jpeg" alt="" width="100%" class="img-display-none7 lazyload">
+              <img data-src="./css/image/flyer design/flyer design 04.jpeg" alt="" width="100%" class="img-display-none7 lazyload">
+          </div>
+          <!-- view more btn -->
+          <div class="view-galery-btn" onclick="img_hide_show7()">VIEW FULL GALLERY <i class="fa-solid fa-angle-down" ></i></div><br><br>
+      </div>
+   
+    <!-- footer section wrapper -->
+    <div id="footer-section-wrapper">
+        <div id="footer-section">
+            <div class="footer-text">
+                <div class="logo"><a href="https://commencons.com"><img class="lazyload" data-src="../css/image/logo.png" alt=""></a></div>
+                <p>Hi, I'm Shamim, and I've been diving into MERN stack development. I've gained expertise in MongoDB, Express.js, React.js, and Node.js. With my skills, I can create full-stack web applications, design efficient databases, develop APIs, and deploy applications. I thrive in collaborative environments and love tackling challenges. Excited about the future of MERN stack development and eager to connect with others in the field.</p>
+                <h3>FOLLOW ME</h3>
+                <div class="social-link social-link1">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                </div>
+            </div>
+            <div class="all-link-wrapper">
+                <div class="all-link2 quick-link">
+                    <h3>Quick Link</h3>
+                    <a href="https://commencons.com#about-wrapper"><i class="fa-solid fa-angle-right"></i>About Me</a>
+                    <a href="https://commencons.com#i-offer-wrapper"><i class="fa-solid fa-angle-right"></i>Service</a>
+                    <a href="https://commencons.com/graphic-design/"><i class="fa-solid fa-angle-right"></i>Graphic Design</a>
+                    <a href="https://commencons.com/photo-editing/"><i class="fa-solid fa-angle-right"></i>Photo editing</a>
+                    <a href="https://commencons.com/web-design/"><i class="fa-solid fa-angle-right"></i>Web Design</a>
+                    <a href="https://commencons.com/blog-post/#blog-section"><i class="fa-solid fa-angle-right"></i>Blog Post</a>
+                    <a href="https://commencons.com#client-review"><i class="fa-solid fa-angle-right"></i>Testimonials</a>
+                    <a href="https://tawk.to/commencons.chat" target="_blank"><i class="fa-solid fa-angle-right"></i>Live Chat <i class="fa-brands fa-rocketchat"></i></a>
+                    <h4 onclick="review_open()"><i class="fa-solid fa-angle-right"></i>Give Review <img src="./css/image/review-icon.png" alt="" width="100%"></h4>
+                </div>
+                <div class="all-link2 contact-info">
+                    <h3>Contact info</h3>
+                   <h4 class="address"><i class="fa-solid fa-location-dot"></i>House: 1250, Road: 09, Mirpur-12, Dhaka-1216</h4>
+                   <h4 class="ecolor"><i class="fa-solid fa-envelope"></i>contact@commencons.com</h4>
+                   <h4 class="ecolor"><i class="fa-solid fa-envelope"></i>support@commencons.com</h4>
+                   <a href="#"><i class="fa-solid fa-map-location-dot"></i>Locate My Address</a>
+                    <!-- translate google  -->
+                   <div class="translate-section">
+                   <h4 class="trans-title">Translate this page in your preferred language:</h4>
+                   <div id="google_translate_element"></div></div>
+                </div>
+            </div>
+        </div></div>
+
+ <!-- footer -->
+ <footer>
+    <p>© 2022 <a href="https://commencons.com">Commencons</a>. All <small>rights reserved</small></p>
+    <div class="social-link social-link-bottom">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-behance"></i></a>
+    </div>
+</footer>
+<!-- poppup -->
+<div id="poppup">
+    <button id="close-btn"  onclick="poppup_close()"><i class="fa-solid fa-x"></i></button>
+    <img src="./css/image/Mail sent-rafiki (1).png" alt="" width="100%">
+    <h1>50% OFF</h1>
+    <p>Limited Period Offer. Grab The Deal</p>
+    <form method="post" name="google-sheet2">
+        <input type="email" name="Email" id="email" placeholder="Enter your email..." required>
+        <button type="submit" id="poppup-btn" onclick="poppup_close()">SUBMIT <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+</div>
+
+<!-- review form -->
+<div class="review-form" id="review-form">
+    <button id="review-close-btn"  onclick="review_close()"><i class="fa-solid fa-x"></i></button>
+    <form action="#">
+    <!-- title -->
+    <h2>Give feedback</h2><br>
+    <p>What dou you think of my service?</p>
+    <!-- 5 star rating -->
+    <div class="rate">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div><br><br><br>
+      <!-- input comment -->
+      <div class="comment">
+        <p>Do you have any thoughts to share?</p>
+        <textarea name="" id="review-textarea"></textarea>
+      </div><br>
+      <!-- questions -->
+      <div class="questions">
+      <p>May we follow upon your feedback?</p><br>
+      <input type="radio" name="questions" id="yes" value="">
+      <label for="yes" id="yes">Yes</label>
+      <input type="radio" name="questions" id="no" value="no" class="no">
+      <label for="no" id="no">No</label>
+    </div><br>
+    <!-- review submit btn -->
+    <div class="review-submit-btn">
+        <button type="submit">SEND</button>
+        <button  onclick="review_close()">CANCEL</button>
+    </div>
+</form>
+</div>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript" defer>
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/633dae4337898912e96d0b4d/1gekf1erc';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+   
+    // End of Tawk.to Script
+    // client email popup
+    const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyuhkmwa4YOs4iFWIgHerVuiNtfFJiJ5MWiXzVAhCBnn5MFNMc7OQubheI17wxBX6qZ/exec'
+  const form2 = document.forms['google-sheet2']
+
+  form2.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+      .then(response => alert("Thanks for submitting the email..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+ <!-- google translate -->
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+    </script>
+    <!-- root javascript -->
+    <script defer  src="../javascript/script.js"></script>
+     <!-- main javascript -->
+     <script defer src="./javascript/script.js"></script>
+</body>
+</html>

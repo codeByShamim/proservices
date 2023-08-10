@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog-post</title>
+    <!--lazy loading img-->
+    <script src="https://unpkg.com/lazysizes@5.2.2/lazysizes.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../css/image/favicon.png" type="image/x-icon">
+    <!-- root main css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- blog main css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+     <!-- nav bar start here -->
+     <div id="nav-bar">
+        <!-- logo-->
+        <div class="logo-wrapper">
+            <div id="logo" class="logo"><a href="https://commencons.com"><img class="lazyload" data-src="../css/image/logo.png" alt=""></a></div>
+            <!-- menu btn -->
+        <div class="menu-btn"><a class="notification-icon" onclick="poppup_open()"><div></div><i class="fa-regular fa-bell"></i></a>
+       <button id="menu-bar" onclick="menu_open()"><i class="fa-solid fa-bars"></i></button>
+       <button id="menu-x" onclick="menu_close()"><i class="fa-solid fa-x"></i></button></div>
+
+        </div>
+        <!-- nav link -->
+        <div class="nav-link" id="nav-link">
+            <ul>
+                <li><a href="https://commencons.com" onclick="menu_link_hide(s)">HOME</a></li>
+                <li><a href="https://commencons.com#service-offer" onclick="menu_link_hide(s)">SERVICE</a></li>
+                <li><a href="https://commencons.com#pricing-section-wrapper" onclick="menu_link_hide(s)">PRICING</a></li>
+                <li class="project-btn"><a href="#" onclick="dropdowns_open_close()">PROJECT <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="dropdowns" id="dropdowns">
+                    <li><a href="https://commencons.com#web-design" onclick="menu_link_hide(s)">WEB DESIGN</a></li>
+                    <li><a href="https://commencons.com#graphic-design" onclick="menu_link_hide(s)">GRAPHIC DESIGN</a></li>
+                    <li><a href="https://commencons.com/photo-editing/" onclick="menu_link_hide(s)">PHOTO EDITING</a></li>
+                </ul>
+                </li>
+                <li><a href="https://commencons.com#about-wrapper" onclick="menu_link_hide(s)">ABOUT</a></li>
+                <li><a href="#" id="notification-icon"> <div></div><i class="fa-regular fa-bell" onclick="poppup_open()"></i></a></li>  
+                <li><a href="https://commencons.com#contact-me" class="contact-active" onclick="menu_link_hide(s)">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+      <!-- blog section -->
+    <div id="blog-section">
+        <!-- blog header -->
+    <div id="blog-header">
+        <h1>My Latest <span>Blog</span> Post Will Help You To Learn</h1>
+        <p>Try to be connect with me and learn thing related to Graphic Design and Web Design</p>
+    </div>
+    <div id="blog-wrapper">
+    <div class="blog">
+        <div id="blog-1">
+            <img src="../blog-post/css/image/blog.svg" alt=""><br><br>
+        <p>Shamim August 25, 2022</p>
+        <h3>The Importance of graphic designing in digital marketing.</h3>
+        <p>As an entrepreneur, you can’t imagine running a successful business online without paying heed to digital marketing. Digital marketing has become a prime requisite in every businesses or marketer’s arsenal. And graphic design works as fuel in igniting the marketing for your company to reach out to people and capture their attention.</p>
+        <h2>First Impression</h2>
+        <p>A powerful first impression is a must if you want to leave an impact on your target audience. Impressive graphic design is a true demonstration of your business principles and helps in initiating a powerful first impression in the minds of your prospects and returning customers…</p>
+        <h2>Brand Identity</h2>
+        <p>A well-planned graphic design strategy is important for a business to establish its image and remain visually consistent throughout the marketing efforts. Using the art of graphic design will help in improving the brand identity and brand recognition of a company. <br>
+            What we have learned at Shergroup is to build layer by layer our brand identity. Remember it has to be something you like as well. Not every graphic design put in front of you is going to be something you like. Good design will often jump out at you as soon as you see it so doesn’t be afraid to go with your gut when you see something you like. <br>
+            Using our own experience, we have emerged from our heritage as Sheriffs into a Business Solutions group. To achieve this, we needed a way to show us at work in a friendly and positive way. As a result of our research and the development of our brand, the Shergroupies were born! These simple avatars have created a positive aura around the Shergroup brand, and we love them!</p>
+            <h2>Communicate your Information</h2>
+            <p>Whether you’re a solopreneur or multimillion-dollar company you have a brand story that you would like to share with the world. Graphic design communicates your brand story with your target audience in the form of images, reports, charts, illustrations, etc. and attracts their attention to your brand’s offerings.
+            </p>
+            <p>Again, we recommend you are creative and bold with your graphic design. Stock library pictures can be changed using tools such as PhotoShop to create your own distinct style. Don’t be afraid to step away from what your competitors are doing, in fact, embrace the difference in your design. It will make you stand out in a crowded marketplace.
+            </p>
+            <h2>Increase Your Sales</h2>
+            <p>Good graphic design will help a business to gain high visibility which in turn can lead to increased sales. Attractive visuals, effective communication of ideas, higher visibility and enhanced credibility push traffic to your brand. Increased traffic leads to more opportunity.
+            </p>
+            <h2></h2>
+
+       </div>
+        <div id="blog-2">
+            <img src="../blog-post/css/image/blog.svg" alt=""><br><br>
+        <p>Shamim August 25, 2022</p>
+        <h3>Why do we need web designer?</h3>
+        <p>Web design is important because it impacts how your audience perceives your brand. The impression you make on them can either get them to remain on your page and learn about your business or leave your page and turn to a competitor. A good web design helps you keep your leads on your page.</p>
+        <p>Today, it seems that everyone is advertising free websites. While a free website sounds like a great deal, are you willing to bet the reputation and success of your company on the least expensive available option? As with most things in life, you get what you pay for!
+        </p>
+        <p>Your website is the first — and sometimes the only thing — your potential customers see when they are searching for your products or services. What type of first impression are they getting when they visit your website? Does your website properly represent your business and make potential customers want to call you, or make them want to look elsewhere?
+        </p>
+    <h2>Why would I need to use web development services?</h2>
+        <p>
+            There are a lot of potential tasks and projects for which you might need to enlist web development services. For example, you might use web development services to develop an online tool, to create a unique widget with a specific functionality for your website, to fix a bug, or to automate a task that you spend a lot of time doing manually.
+        </p>
+        </div>
+        <div id="blog-3">
+            <img src="../blog-post/css/image/blog.svg" alt=""><br><br>
+        <p>Shamim August 25, 2022</p>
+        <h3>What makes graphic design so important?</h3>
+        <p>We live in a visual society so images, packaging, signage, illustrations, websites, apps and social media all vie for our attention, making it very challenging to become noticeable let alone memorable amongst the overload of visual stimuli. In a nutshell, the most important mission that graphic design plays is communication. Communication of ideas and messages, with the ultimate objective of elicit, prompt or evoke an action or an emotion (which will become an action in the future). </p>
+        <p>So a good graphic designer will build your logo, create your email campaign or company stationery, do everything possible (given the right brief) to set you apart from your competition and convey a message that exudes trust, credibility and builds a consistent brand and company reputation. A well executed design project will ensure that the final output, be it a flyer or your product packaging, or even the design of your office space or your frontline staff’s uniforms summarizes your mission and vision statements and communicates in a clear and simple manner the main ideas that are behind your company or organization and what it stands for. </p>
+        <p>When you hire a good graphic design professional, preferably one you can trust on more than one project, they will ensure that all representations of your products and brand are visually consistent, recognizable and conveying a clear message. Ultimately, when you ask yourself ‘How important is it that my customers recognize me?’, if the answer is ‘very important’ then so should graphic design be for your brand!
+        </p>
+        <h2>What is social media design?</h2>
+        <p>Social media design is the visual content used for digital marketing efforts used on social  media. This can include images, gifs, videos, animations, or other graphics posted on Instagram, Facebook, Twitter, and other social media platforms.</p>
+        <h2>Why is social media design important?</h2>
+        <p>If you handle the social media for a company, brand, or multiple sub-brands, it’s time to think about social media design. Social media design provides support to focus on social media goals, creates a strategy, and establishes a cohesive visual language to develop and increase brand awareness and grow your social media following by connecting with your target audience.
+        </p>
+        </div>
+        <div id="blog-4">
+            <img src="../blog-post/css/image/blog.svg" alt=""><br><br>
+        <p>Shamim August 25, 2022</p>
+        <h3>Why isn't anyone coming to my website?</h3>
+        <h2>Website is not SEO optimized.</h2>
+        <p>Search Engine Optimization (SEO) is the practice of putting keywords throughout your website to ensure that your rank for products or services that you are wanting to rank for. As a user searches on the internet, they will type in a keyword or phrase to find the product or service they are looking for. If your website is optimised for one of those keywords or phrases, then your website will appear to them on the search engine.
+        </p>
+        <h2>Lack of social media presence</h2>
+        <p>By using social media and having that linked somewhere in your site you are telling Google or other search engines that you have more information to provide. Search engines will promote websites with social media and blogs as it creates more information that can be shared on the internet. By also having social media accounts and an active blog you are allowing your business to increase its reputation, earn credibility as you are providing a channel to your customers where they can interact with you.</p>
+        <h2>Having an attractive website design</h2>
+        <p>The object of a website is to promote the products or services that your business provides meaning that it is an extension of your business, and a poor website design can reflect poorly on your business. If you offer a professional service to customers, then having a professional website will reflect your overall businesses dedication.
+            Also, by having a good web design you are ensuring that your page load speeds are low keeping your user attentive as they are not waiting a while to access the content on your website. If you are looking to get a new website for your business or to update a previous outdated one, then get in touch to discuss your project.
+            </p>
+    </div>
+        <!-- interections -->
+        <div class="interections">
+            <i class="fa-solid fa-thumbs-up" id="solid-thumbs" onclick="noliked()"></i>
+            <i class="fa-regular fa-thumbs-up" id="regular-thumbs" onclick="liked()"></i>
+            <i class="fa-solid fa-thumbs-down" id="solid-thumbs-down" onclick="nounlike()"></i>
+            <i class="fa-regular fa-thumbs-down" id="regular-thumbs-down" onclick="unlike()"></i>
+            <div class="view"><i class="fa-solid fa-eye"><small>38</small></i></div>
+        </div>
+        
+   </div>
+    <div class="popular-post-wrapper">
+        <div class="popular-post-section">
+            <h2>Most Popular</h2>
+        <div class="popular-post">
+        <p><i class="fa-solid fa-clock"></i> August 25, 2022</p>
+        <h3 onclick="blog_1();topFunction();">The Importance of Graphic Designing in Digital Marketing.</h3>
+        </div>
+        <div class="popular-post">
+        <p> <i class="fa-solid fa-clock"></i>August 25, 2022</p>
+        <h3 onclick="blog_2();topFunction();">Why do we need web designer?</h3>
+        </div>
+        <div class="popular-post">
+        <p> <i class="fa-solid fa-clock"></i>August 25, 2022</p>
+        <h3 onclick="blog_3();topFunction();">What makes graphic design so important?</h3>
+        </div>
+        <div class="popular-post">
+        <p> <i class="fa-solid fa-clock"></i>August 25, 2022</p>
+        <h3 onclick="blog_4();topFunction();">Why isn't anyone coming to my website?</h3>
+        </div></div>
+        <!-- tags -->
+        <div class="tags-section">
+             <h2>Tags</h2>
+             <a href="#">WEB DESIGN</a>
+             <a href="#">GRAPHIC DESIGN</a>
+             <a href="#">PHOTO EDITING</a> 
+             <a href="#">SOCIAL POST</a>
+             <a href="#">SOCIAL BANNER</a>
+             <a href="#">WEB BANNER</a>
+             <a href="#">THUMBNAILS</a>
+             <a href="#">HEADERS</a>
+             <a href="#">COVERS</a>
+             <a href="#">GOOGLE ADS</a>
+             <a href="#">FACEBOOK ADS</a>
+             <a href="#">FLYER DESIGN</a>
+             <a href="#">POSTER DESIGN</a>
+             <a href="#">MENU DESIGN</a>
+             <a href="#">IMAGE EDITING</a>
+             <a href="#">BUSINESS CARD</a>
+             <a href="#">AGENCY</a>
+             <a href="#">DESIGNER</a>
+             <a href="#">ONE PAGE</a>
+             <a href="#">PORTFOLIO</a>
+             <a href="#">RESTAURANT</a>
+             <a href="#">MEDICAL</a>
+             <a href="#" id="bcolor">BLOG</a>
+             <a href="#">BEAUTY & WELLNESS</a>
+             <a href="#">PHOTOGRAPHY</a>
+             <a href="#">REAL ESTATE</a>
+             <a href="#">STARTUP</a>
+             <a href="#">COLOR CORRECTION</a>
+             <a href="#">NECK JOINT SERVICE</a>
+             <a href="#">HEADSHOT RETOUCH</a>
+             <a href="#">IMAGE MASKING</a>
+             <a href="#">JEWELRY RETOUCHING</a>
+             <a href="#">SHADOW MAKING</a>
+             <a href="#">GHOST MANNEQUIN</a>
+             <a href="#">E-COMMERCE IMAGE</a>
+        </div>
+    </div>
+    </div>
+ </div>
+     <!-- special offer section -->
+     <div class="special-offer-section">
+        <div class="special-offer">
+            <div class="offer">
+                <h1>Special Discount For Bulk Images !</h1>
+                <p>We provide 100% handmade photo editing services to use photoshop. So you will get great quality services. always try to deliver your order within 24 hours or less.</p>
+                <a href="https://tawk.to/commencons.chat">Contact Me <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="offer-img">
+                <img class="lazyload" data-src="./css/image/graphic img.png" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section wrapper -->
+    <div id="footer-section-wrapper">
+        <div id="footer-section">
+            <div class="footer-text">
+                <div class="logo"><a href="https://commencons.com"><img class="lazyload" data-src="../css/image/logo.png" alt=""></a></div>
+                <p>Hi, I'm Shamim, and I've been diving into MERN stack development. I've gained expertise in MongoDB, Express.js, React.js, and Node.js. With my skills, I can create full-stack web applications, design efficient databases, develop APIs, and deploy applications. I thrive in collaborative environments and love tackling challenges. Excited about the future of MERN stack development and eager to connect with others in the field.</p>
+                <h3>FOLLOW ME</h3>
+                <div class="social-link social-link1">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                </div>
+            </div>
+            <div class="all-link-wrapper">
+                <div class="all-link2 quick-link">
+                    <h3>Quick Link</h3>
+                    <a href="https://commencons.com#about-wrapper"><i class="fa-solid fa-angle-right"></i>About Me</a>
+                    <a href="https://commencons.com#i-offer-wrapper"><i class="fa-solid fa-angle-right"></i>Service</a>
+                    <a href="https://commencons.com/graphic-design/"><i class="fa-solid fa-angle-right"></i>Graphic Design</a>
+                    <a href="https://commencons.com/photo-editing/"><i class="fa-solid fa-angle-right"></i>Photo editing</a>
+                    <a href="https://commencons.com/web-design/"><i class="fa-solid fa-angle-right"></i>Web Design</a>
+                    <a href="https://commencons.com/blog-post/#blog-section"><i class="fa-solid fa-angle-right"></i>Blog Post</a>
+                    <a href="https://commencons.com#client-review"><i class="fa-solid fa-angle-right"></i>Testimonials</a>
+                    <a href="https://tawk.to/commencons.chat" target="_blank"><i class="fa-solid fa-angle-right"></i>Live Chat <i class="fa-brands fa-rocketchat"></i></a>
+                     <h4 onclick="review_open()"><i class="fa-solid fa-angle-right"></i>Give Review <img src="./css/image/review-icon.png" alt="" width="100%"></h4>
+                </div>
+                <div class="all-link2 contact-info">
+                    <h3>Contact info</h3>
+                   <h4 class="address"><i class="fa-solid fa-location-dot"></i>House: 1250, Road: 09, Mirpur-12, Dhaka-1216</h4>
+                   <h4 class="ecolor"><i class="fa-solid fa-envelope"></i>contact@commencons.com</h4>
+                   <h4 class="ecolor"><i class="fa-solid fa-envelope"></i>support@commencons.com</h4>
+                   <a href="#"><i class="fa-solid fa-map-location-dot"></i>Locate My Address</a>
+                    <!-- translate google  -->
+                   <div class="translate-section">
+                   <h4 class="trans-title">Translate this page in your preferred language:</h4>
+                   <div id="google_translate_element"></div></div>
+                </div>
+            </div>
+        </div></div>
+
+ <!-- footer -->
+ <footer>
+    <p>© 2022 <a href="https://commencons.com">Commencons</a>. All <small>rights reserved</small></p>
+    <div class="social-link social-link-bottom">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-behance"></i></a>
+    </div>
+</footer>
+<!-- poppup -->
+<div id="poppup">
+    <button id="close-btn"  onclick="poppup_close()"><i class="fa-solid fa-x"></i></button>
+    <img src="./css/image/Mail sent-rafiki (1).png" alt="" width="100%">
+    <h1>50% OFF</h1>
+    <p>Limited Period Offer. Grab The Deal</p>
+    <form method="post" name="google-sheet2">
+        <input type="email" name="Email" id="email" placeholder="Enter your email..." required>
+        <button type="submit" id="poppup-btn" onclick="poppup_close()">SUBMIT <i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+</div>
+
+<!-- review form -->
+<div class="review-form" id="review-form">
+    <button id="review-close-btn"  onclick="review_close()"><i class="fa-solid fa-x"></i></button>
+    <form action="#">
+    <!-- title -->
+    <h2>Give feedback</h2><br>
+    <p>What dou you think of my service?</p>
+    <!-- 5 star rating -->
+    <div class="rate">
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div><br><br><br>
+      <!-- input comment -->
+      <div class="comment">
+        <p>Do you have any thoughts to share?</p>
+        <textarea name="" id="review-textarea"></textarea>
+      </div><br>
+      <!-- questions -->
+      <div class="questions">
+      <p>May we follow upon your feedback?</p><br>
+      <input type="radio" name="questions" id="yes" value="">
+      <label for="yes" id="yes">Yes</label>
+      <input type="radio" name="questions" id="no" value="no" class="no">
+      <label for="no" id="no">No</label>
+    </div><br>
+    <!-- review submit btn -->
+    <div class="review-submit-btn">
+        <button type="submit">SEND</button>
+        <button  onclick="review_close()">CANCEL</button>
+    </div>
+</form>
+</div>
+
+  
+<!--Start of Tawk.to Script-->
+<script type="text/javascript" defer>
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/633dae4337898912e96d0b4d/1gekf1erc';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    // End of Tawk.to Script
+
+     // client email popup
+     const scriptURL2 = 'https://script.google.com/macros/s/AKfycbyuhkmwa4YOs4iFWIgHerVuiNtfFJiJ5MWiXzVAhCBnn5MFNMc7OQubheI17wxBX6qZ/exec'
+    const form2 = document.forms['google-sheet2']
+  
+    form2.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL2, { method: 'POST', body: new FormData(form2)})
+        .then(response => alert("Thanks for submitting the email..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+     <!-- google translate -->
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src= "https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+    </script>
+    <!-- root javascript -->
+    <script defer src="../javascript/script.js"></script>
+     <!-- main javascript -->
+     <script defer src="./javascript/script.js"></script>
+</body>
+</html>

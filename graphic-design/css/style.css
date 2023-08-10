@@ -1,0 +1,196 @@
+     /* protfolio section start here  */
+  .protfolio-section{
+    padding: 100px 70px 100px 70px;
+    background-color: var(--bac_col_two);
+  }
+  #protfolio-header{
+    width: 50%;
+  }
+  #protfolio-header h1{
+    font-family: var(--font-one);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--main_bac_col);
+  }
+  #protfolio-header h3{
+    font-family: var( --font-two);
+    color: var(--p_col);
+    font-size: 20px;
+    line-height: 30px;
+  }
+  /* protfolio navigation scrolling problem solved */
+  #social-media, #web-banner, #youtube-thumbnail, #youtube-banner, #business-card, #facebook-ads, #flyer-design{
+    padding-top: 75pt;
+    margin-top: -75pt;
+  }
+  #social-media{
+    padding-top: 40px !important;
+  }
+  /* project navigation */
+  #project-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border_col) ;
+  }
+  #project-navigation a{
+    display: block;
+    font-family: var(--font-one);
+    text-decoration: none;
+    color: var(--black_col);
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border: 1px solid  var(--border_col) ;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+  #project-navigation a:hover{
+    border-color: var(--main_bac_col);
+  }
+  /*protfolio-title-wrapper*/ .border-top{
+    border-top: 1px solid  var(--border_col);
+  }
+  .protfolio-title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px !important;
+  }
+  .left-title{
+    width: 50%;
+  }
+  .right-title{
+    width: 50%;
+    text-align: right;
+  }
+ .right-title div{
+  font-family: var(--font-one);
+  display: inline-block;
+  color: var(--white_col);
+  font-size: 14px;
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: var(--big_font-col);
+ }
+ .right-title div:first-child{
+  margin-right: 10px;
+ }
+ .left-title h3{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: var(--font-one);
+  font-size: 24px;
+  color: var(--big_font-col);
+ }
+ .left-title span{
+  font-size: 17px;
+  color: var(--main_bac_col);
+  margin-right: 5px;
+ }
+ .left-title p{
+  font-family: var(--font-two);
+  color: var(--p_col);
+  margin-top: 10px;
+ }
+
+ /* protfolio image start here */
+ .prtofolio-img-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+ }
+ .prtofolio-img-container img{
+  width: 31%;
+  margin-bottom: 3.3%;
+  border-radius: 5px;
+  transition: 2s ease-in-out;
+
+ }
+ .view-galery-btn{
+  font-family: var(--font-one);
+  cursor: pointer;
+  float: right;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 35px;
+  background-color: var(--main_bac_col);
+  display: block;
+  border-radius: 5px;
+  margin-top: -1%;
+ }
+ .view-galery-btn .fa-solid{
+  margin-left: 8px;
+ }
+ .img-display-none1,.img-display-none2,.img-display-none3,.img-display-none4,.img-display-none5,.img-display-none6,.img-display-none7{
+  display: none;
+ }
+  /* responsive  */
+ 
+  @media screen and (max-width: 600px) {
+  #protfolio-header h1{
+    font-size: 24px;
+  }
+  #protfolio-header h3{
+    font-size: 16px;
+    line-height: 25px;
+   }
+    .protfolio-title-wrapper{
+      width: 100%;
+      flex-direction: column;
+     }
+     .right-title{
+      width: 100%;
+      text-align: left;
+     }
+     .left-title h3{
+      width: 200% !important;
+     }
+     .left-title p{
+      width: 200% !important;
+     }
+     .prtofolio-img-container img{
+      width: 100% !important;
+      margin-bottom: 3.3%;
+      border-radius: 5px;
+     }
+  }
+  @media screen and (max-width: 768px) {
+    /* gallery */
+     .protfolio-section{
+      padding: 100px 15px;
+     }
+     #protfolio-header{
+      width: 100% !important;
+     }
+    .left-title {
+      margin-bottom: 20px;
+    }
+    .left-title h3{
+      font-size: 23px;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    /* gallery */
+    #protfolio-header{
+      width: 80%;
+    }
+    .prtofolio-img-container img{
+      width: 48%;
+      margin-bottom: 3.3%;
+      border-radius: 5px;
+     }
+     .display-none990{
+      display: none;
+     }
+     .display-block{
+      display: block;
+     }
+  }
